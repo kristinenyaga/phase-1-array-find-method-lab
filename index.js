@@ -7,7 +7,13 @@ const record = [
   ]
   
   const superbowlWin = (record) => {
+<<<<<<< HEAD
     const isWin = record.find(record => record.result === "W");
     return isWin ? isWin.year : undefined;
+=======
+    const win = record.find(record => record.result === "W");
+    return win ? win.year : undefined;
+      
+>>>>>>> refs/remotes/origin/master
 }
-  // console.log(record.find(superbowlWin))
+
