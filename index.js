@@ -7,8 +7,8 @@ const record = [
   ]
   
   const superbowlWin = (record) => {
-    const isWin = record.find(record => record.result === "W");
-    return isWin ? isWin.year : undefined;
+    const win = record.find(record => record.result === "W");
+    return win ? win.year : undefined;
       
 }
 
